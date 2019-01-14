@@ -15,7 +15,11 @@ PostgreSQL 10.5
 ## Installation / Setup
 
 <p>
-- Clone the repository. "git clone https://github.com/raabyau/tangerine.git"</br>
+- Clone the repository:
+  ```
+  git clone https://github.com/raabyau/tangerine.git"
+  ```
+  
 - Create a PostgreSQL database for the application and then update settings.py with the database name, username and password.<br/>
 - Install Django. "pip install django"<br/>
 - Install Django Channels. "pip install channels"</br>
