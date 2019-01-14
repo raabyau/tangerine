@@ -1,6 +1,6 @@
 # Tangerine
 
-<p>Tangerine is a chatbot written in python using the Django web framework.</p>
+Tangerine is a chatbot written in python using the Django web framework.
 
 ![alt text](https://github.com/raabyau/tangerine/blob/master/screenshot.png)
 
@@ -44,7 +44,6 @@ Run the development server
 python manage.py runserver"
 ```
 
-- Open the admin site, http://127.0.0.1:8000/admin/ and populate the Question and Questionnaire tables with the JSON found <a href="https://github.com/raabyau/tangerine/tree/master/demo">here</a>. Make sure the <b>name</b> attributes are populated with "demo_questions" and "demo_questionnaire" respectively.</br>
-- Open http://127.0.0.1 and chat away!!
+Open the admin site, http://127.0.0.1:8000/admin/ and populate the Question and Questionnaire tables with the JSON found <a href="https://github.com/raabyau/tangerine/tree/master/demo">here</a>. Make sure the <b>name</b> attributes are populated with "demo_questions" and "demo_questionnaire" respectively.
 
-</p>
+Open http://127.0.0.1 and chat away!!
