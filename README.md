@@ -36,12 +36,12 @@ python manage.py migrate
 
 Create a superuser that can be used to login to the admin site:
 ```
-python manage.py createsuperuser"
+python manage.py createsuperuser
 ```
 
 Run the development server
 ```
-python manage.py runserver"
+python manage.py runserver
 ```
 
 Open the admin site, http://127.0.0.1:8000/admin/ and populate the Question and Questionnaire tables with the JSON found <a href="https://github.com/raabyau/tangerine/tree/master/demo">here</a>. Make sure the <b>name</b> attributes are populated with "demo_questions" and "demo_questionnaire" respectively.
