@@ -18,15 +18,16 @@ Clone the repository:
 ```
 git clone https://github.com/raabyau/tangerine.git
 ```
-Create a PostgreSQL database for the application and then update settings.py with the database name, username and password.
 
-Install Django:
+Install Django, Django channels and the Postgres python adapter:
 ```
 pip install django
+pip install channels
+pip install psycopg2
 ```
 
-- Install Django Channels. "pip install channels"</br>
-- Install Postgres python adapter. "pip install psycopg2"<br/>
+Create a PostgreSQL database for the application and then update settings.py with the database name, username and password.
+
 - Perform Django migrations from the root project directory. "python manage.py makemigrations" and "python manage.py migrate".</br>
 - Create a superuser that can be used to login to the admin site. "python manage.py createsuperuser".</br>
 - Run the development server. "python manage.py runserver".</br>
