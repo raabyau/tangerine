@@ -14,14 +14,17 @@ PostgreSQL 10.5
 
 ## Installation / Setup
 
-<p>
-- Clone the repository:
-  ```
-  git clone https://github.com/raabyau/tangerine.git"
-  ```
-  
-- Create a PostgreSQL database for the application and then update settings.py with the database name, username and password.<br/>
-- Install Django. "pip install django"<br/>
+Clone the repository:
+```
+git clone https://github.com/raabyau/tangerine.git
+```
+Create a PostgreSQL database for the application and then update settings.py with the database name, username and password.
+
+Install Django:
+```
+pip install django
+```
+
 - Install Django Channels. "pip install channels"</br>
 - Install Postgres python adapter. "pip install psycopg2"<br/>
 - Perform Django migrations from the root project directory. "python manage.py makemigrations" and "python manage.py migrate".</br>
