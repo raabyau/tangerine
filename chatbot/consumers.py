@@ -1,4 +1,3 @@
-#from channels.generic.websocket import WebsocketConsumer
 from channels.generic.websocket import AsyncWebsocketConsumer
 from chatbot.chat import QuestionSet
 from chatbot.models import Question, Questionnaire
@@ -33,7 +32,7 @@ class ChatConsumer(AsyncWebsocketConsumer):
         if action == "chat":
             response = text_data_json['message'].strip()
 
-            # Check that the rclient esponse is valid.
+            # Check that the client response is valid.
             r = self.questions.check(response)
       
             if r["result"]:
