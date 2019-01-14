@@ -1,6 +1,6 @@
 # Tangerine
 
-Tangerine is a chatbot written in python using the Django web framework.
+A chatbot written in python using the Django web framework.
 
 ![alt text](https://github.com/raabyau/tangerine/blob/master/screenshot.png)
 
