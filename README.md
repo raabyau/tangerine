@@ -28,9 +28,22 @@ pip install psycopg2
 
 Create a PostgreSQL database for the application and then update settings.py with the database name, username and password.
 
-- Perform Django migrations from the root project directory. "python manage.py makemigrations" and "python manage.py migrate".</br>
-- Create a superuser that can be used to login to the admin site. "python manage.py createsuperuser".</br>
-- Run the development server. "python manage.py runserver".</br>
+Perform Django migrations from the root project directory:
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+
+Create a superuser that can be used to login to the admin site:
+```
+python manage.py createsuperuser"
+```
+
+Run the development server
+```
+python manage.py runserver"
+```
+
 - Open the admin site, http://127.0.0.1:8000/admin/ and populate the Question and Questionnaire tables with the JSON found <a href="https://github.com/raabyau/tangerine/tree/master/demo">here</a>. Make sure the <b>name</b> attributes are populated with "demo_questions" and "demo_questionnaire" respectively.</br>
 - Open http://127.0.0.1 and chat away!!
 
