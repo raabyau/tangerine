@@ -9,7 +9,7 @@ A simple chatbot application written in python using the Django web framework.
 
 * Python 3.6
 * Django 2.1.5
-* Django channels 2.1.6
+* Django Channels 2.1.6
 * PostgreSQL 10.5 (or a version that supports JSON fields)
 
 ## Installation / Setup
