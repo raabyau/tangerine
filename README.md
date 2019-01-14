@@ -28,7 +28,7 @@ pip install psycopg2
 
 Create a PostgreSQL database for the application and then update settings.py with the database name, username and password. It does not matter what you name each of these, as long as they are referenced in the settings file. settings.py can be found in *tangerine* sub-directory of the root directory.
 
-Perform Django migrations from the root project directory:
+Perform Django migrations from the root project directory. This step ensures the relevent database tables are automatically created in Postgres:
 ```
 python manage.py makemigrations
 python manage.py migrate
