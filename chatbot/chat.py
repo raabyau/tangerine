@@ -5,7 +5,9 @@ QuestionSet
 import re
 
 class QuestionSet:
-  """QuestionSet. Class for iterating through a set of questions.
+  """QuestionSet
+
+  A class for iterating through a set of questions, where responses to questions determine the next question asked.
   """
 
   def __init__(self, prompts, questions):
