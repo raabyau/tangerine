@@ -10,7 +10,7 @@ Tangerine is a chatbot written in python using the Django web framework.
 * Python 3.6
 * Django 2.1.5
 * Django channels 2.1.6
-* PostgreSQL 10.5 (or a version that support JSON fields)
+* PostgreSQL 10.5 (or a version that supports JSON fields)
 
 ## Installation / Setup
 
@@ -39,7 +39,7 @@ Create a superuser that can be used to login to the admin site:
 python manage.py createsuperuser
 ```
 
-Run the development server
+Run the development server:
 ```
 python manage.py runserver
 ```
