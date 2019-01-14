@@ -26,7 +26,7 @@ pip install channels
 pip install psycopg2
 ```
 
-Create a PostgreSQL database for the application and then update settings.py with the database name, username and password.
+Create a PostgreSQL database for the application and then update settings.py with the database name, username and password. It does not matter what you name each of these, as long as they are referenced in the settings file.
 
 Perform Django migrations from the root project directory:
 ```
