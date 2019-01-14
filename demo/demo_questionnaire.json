@@ -1,0 +1,16 @@
+{
+	"first": "name",
+	"name": "dob",
+	"dob": "sex",
+	"sex": "is_a_smoker",
+	"is_a_smoker": {
+		"no": "is_a_drinker",
+		"yes": "years_a_smoker"
+	},
+	"is_a_drinker": {
+		"no": "last",
+		"yes": "years_a_drinker"
+	},
+	"years_a_smoker": "is_a_drinker",
+	"years_a_drinker": "last"
+}
